@@ -4,9 +4,9 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-    sub1 = original_str[0:7]
     sub2 = original_str[-11:]
-    merged_str = sub2 +" " + sub1
+    sub1 = original_str[0:6]
+    merged_str = sub2 +" "+ sub1
     print(sub2)
     print(sub1)
     print(merged_str)
